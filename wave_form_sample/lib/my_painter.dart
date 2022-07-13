@@ -71,7 +71,7 @@ class _MyPainterState extends State<MyPainter> {
 
     setScale(0, 500, 0, 500);
     var chartDrawTimer = Timer.periodic(
-      Duration(milliseconds: 500),
+      Duration(milliseconds: 50),
       (Timer timer) async {
         List<TrendDataPoint> samples = [];
         if (currentXValue > 500) {
@@ -81,6 +81,7 @@ class _MyPainterState extends State<MyPainter> {
           currentYValue = 0;
         }
 
+        //13839 is the total data points in json file
         for (int i = 0; i < 400; i++) {
           samples.add(TrendDataPoint(
               refTime: currentXValue % 500,

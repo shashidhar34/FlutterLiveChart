@@ -1,0 +1,16 @@
+build/
+.dart_tool/
+.packages
+pubspec.lock # library relate lock files
+*.iml
+*.ipr
+*.iws
+.idea/
+**/android/**/gradle-wrapper.jar
+.gradle/
+**/android/captures/
+**/android/gradlew.bat
+**/android/gradlew
+**/android/local.properties
+**/android/key.properties
+*.jks
