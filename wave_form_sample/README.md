@@ -1,16 +1,11 @@
 # wave_form_sample
 
-A new Flutter project.
+Live Chart Rendering Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is to demonstrate the rendering of the live chart with Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+Flutter version 2.10.0 was used at the time of development.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The output of this project can be seen in the Youtube @ https://www.youtube.com/shorts/So_8zBAi7N8
